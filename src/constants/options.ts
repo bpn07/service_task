@@ -7,6 +7,9 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from "react-icons/fa6";
+import { ShortTermIcon } from "@/components/SVGCollections";
+import { CiClock2 } from "react-icons/ci";
+import { IoDocumentTextOutline } from "react-icons/io5";
 
 export const headerOptions: { type: string; link: string; icon: IconType }[] = [
   {
@@ -40,7 +43,7 @@ export const socialLinks: { link: string; icon: IconType }[] = [
   },
 ];
 
- export const navLinks = [
+export const navLinks = [
   {
     title: "Home",
     link: "/",
@@ -65,4 +68,38 @@ export const socialLinks: { link: string; icon: IconType }[] = [
     title: "Contact",
     link: "/contact",
   },
+];
+
+export const consultingBlog = [
+  {
+    image: "/blog-1.png",
+    title: "HR Consulting",
+    description:
+      "There are many variations of passages of lorem ipsum is simply free text available in the market, but the majority time you put aside to be in our office. Lorem ipsum dolor sit amet, consectetLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    slug: "Helping Clients to Solve Recruitments Problems",
+    content:
+      "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+  },
+];
+
+export const whyChoose: { title: string; icon: IconType }[] = [
+  {
+    title: "Short Term <br/> Hiring",
+    icon: ShortTermIcon,
+  },
+  {
+    title: "Last Minute <br/> Hiring",
+    icon: CiClock2,
+  },
+  {
+    title: "Administration <br/> Rules",
+    icon: IoDocumentTextOutline,
+  },
+];
+
+export const serviceBenefits = [
+  "Cost Effective",
+  "Equal Opportunities",
+  "Creates High Brand Awareness",
+  "Higher ROI",
 ];
