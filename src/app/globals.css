@@ -6,19 +6,6 @@
 body{
   overflow-x: hidden;
 }
-.css-underlined {
-  position: relative;
-}
-.css-underlined::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #000;
-  transition: transform 0.3s ease-in-out;
-}
 .css-headerlist li:not(:first-child)::before {
   content: "/";
   padding-right: 4px;
