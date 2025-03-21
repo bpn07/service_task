@@ -103,3 +103,74 @@ export const serviceBenefits = [
   "Creates High Brand Awareness",
   "Higher ROI",
 ];
+
+export const footerLinks = [
+  {
+    title: "Explore",
+    links: [
+      {
+        title: "About Company",
+        link: "/",
+      },
+      {
+        title: "Meet the Team",
+        link: "/",
+      },
+      {
+        title: "News & Media",
+        link: "/",
+      },
+      {
+        title: "Our Projects",
+        link: "/",
+      },
+      {
+        title: "Contact",
+        link: "/",
+      },
+    ],
+  },
+  {
+    title: "Links",
+    links: [
+      {
+        title: "Apply Now",
+        link: "/",
+      },
+      {
+        title: "Contract to Hire",
+        link: "/",
+      },
+      {
+        title: "Direct Hire",
+        link: "/",
+      },
+      {
+        title: "Executive Search",
+        link: "/",
+      },
+      {
+        title: "Our Solutions",
+        link: "/",
+      },
+    ],
+  },
+  {
+    title: "Contact",
+    links: [
+      {
+        title: "66 Road Broklyn Street, 600 New York, USA",
+        link: "",
+      },
+    ],
+  },
+];
+
+export const serviceList = [
+  "HR Consulting",
+  "Tech Resources",
+  "Staffing Solution",
+  "Corporate Program",
+  "Leadership Training",
+  "Staff Management",
+];

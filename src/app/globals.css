@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body{
+  overflow-x: hidden;
+}
 .css-underlined {
   position: relative;
 }
-
 .css-underlined::before {
   content: "";
   display: block;

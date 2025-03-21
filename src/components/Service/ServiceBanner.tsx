@@ -1,7 +1,7 @@
-import Image from "next/image";
 import React from "react";
-import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const links = [
     {
@@ -26,10 +26,10 @@ const ServiceBanner = () => {
         className="w-full h-full object-cover object-left"
       />
     </div>
-    <p className="text-white font-bold text-5xl z-50 absolute top-1/2 left-24">
+    <p className="text-white font-bold text-5xl z-40 absolute top-1/2 left-32">
       HR Consulting
     </p>
-    <ul className="absolute bottom-0 right-24 py-4 px-10 bg-[#0b182ae6] css-servicelinks flex items-center">
+    <ul className="absolute bottom-0 right-32 py-4 px-10 bg-[#0b182ae6] css-servicelinks flex items-center">
       {links.map((link, index) => (
         <li key={index} className="flex items-center text-white ">
           <motion.div className="relative" whileHover={"hover"}>

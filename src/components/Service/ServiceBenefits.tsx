@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaCheckCircle } from "react-icons/fa";
 import Image from "next/image";
+import { FaCheckCircle } from "react-icons/fa";
 import { serviceBenefits } from "@/constants/options";
 
 const ServiceBenefits = () => {
@@ -17,8 +17,8 @@ const ServiceBenefits = () => {
     </div>
     <div>
       <p className="text-3xl font-bold">Our Benefits</p>
-      <p className="text-xl text-faded-500 font-light mt-6">
-        Get the Best Digital Marketing from the Pitoon Agency of
+      <p className="text-xl text-faded-500 font-light mt-6 leading-8">
+        Get the Best Digital Marketing from the <br /> Pitoon Agency of
         Exellence
       </p>
       <ul className="mt-8 flex flex-col gap-2">

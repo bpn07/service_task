@@ -1,6 +1,6 @@
 import React from "react";
-import { consultingBlog } from "@/constants/options";
 import Image from "next/image";
+import { consultingBlog } from "@/constants/options";
 
 const ServiceBlog = () => {
   return (

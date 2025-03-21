@@ -1,13 +1,13 @@
 "use client";
+import React from "react";
 import { headerOptions, navLinks, socialLinks } from "@/constants/options";
 import Link from "next/link";
-import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { IoIosSearch } from "react-icons/io";
 const Header = () => {
   return (
-    <header className="w-full">
+    <header className="w-full sticky -top-14 z-50 bg-white shadow-sm">
       <div className="flex items-center justify-between bg-white  py-3.5 w-[70%] m-auto">
         <div className="w-1/2 flex items-center gap-5 text-sm">
           {headerOptions.map((option, index) => (
@@ -71,15 +71,15 @@ const Header = () => {
           </ul>
         </div>
       </div>
-      <div className="flex w-full">
-        <nav className="w-full flex items-end mr-[-45px]">
-          <Link href={""} className="pl-14 pb-3 mr-14">
-            <Image src="/logo.png" alt="logo" width={125} height={100}/>
+      <div className="flex w-full ">
+        <nav className="w-full relative flex items-end mr-[-45px]">
+          <Link href={"/"} className="pl-14 pb-3 mr-14">
+            <Image src="/logo.png" alt="logo" width={125} height={100} />
           </Link>
           <button className="bg-primary-500 text-white px-6 py-2 h-[70px]">
-            <IoIosSearch />
+            <IoIosSearch className="text-3xl"/>
           </button>
-          <ul className="w-full flex items-center ml-2.5 gap-14 bg-faded-200 px-12 h-[70px] z-50">
+          <ul className="w-full flex items-center ml-2.5 gap-14 bg-faded-200 px-12 h-[70px]">
             {navLinks.map((nav, index) => (
               <li
                 key={index}
